@@ -5,14 +5,15 @@ import API from "./Components/API";
 /* function for the main and only page */
 function App() {
 
-  return (
+  return (    
+  <body>
   <>
   {/* body contains the navigation bar and the api container */}
-    <body>
+
       <Navigation></Navigation>
       <API></API>
-      </body>
       </>
+      </body>
       )
     }
 
